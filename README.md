@@ -1,3 +1,3 @@
 # test
 
-this repo is for my learning about git and github 
+this repo is for my learning about git and github !

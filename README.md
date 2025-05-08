@@ -6,11 +6,11 @@ this repo is for my learning about git and github !
 
 
 ### 1. SETUP & CONFIGURATION
-Command	Purpose
-git config --global user.name "Your Name"	Set your Git username (used in commits)
-git config --global user.email "your@email.com"	Set your Git email
-git config --global -l	List all global config settings
-git config --list	List all Git config (local + global)
+Command	Purpose  
+git config --global user.name "Your Name" Set your Git username (used in commits)  
+git config --global user.email "your@email.com"	Set your Git email  
+git config --global -l	List all global config settings  
+git config --list	List all Git config (local + global)  
 
 ### 2. STARTING A REPO
 Command	Purpose
@@ -18,12 +18,12 @@ git init	Initialize a new local Git repo
 git clone <url>	Clone a remote repo (creates a local copy)
 
 ### 3. STAGING & COMMITTING CHANGES
-Command	Purpose
-git status	Show changed files and current branch
-git add <file>	Stage a file for commit
-git add .	Stage all changed files
-git commit -m "Message"	Commit staged changes with a message
-git commit -am "Message"	Add + commit in one step (only tracked files)
+Command	Purpose  
+git status	Show changed files and current branch  
+git add <file>	Stage a file for commit  
+git add .	Stage all changed files  
+git commit -m "Message"	Commit staged changes with a message  
+git commit -am "Message"	Add + commit in one step (only tracked files)  
 
 ### 4. WORKING WITH BRANCHES
 Command	Purpose
@@ -42,6 +42,8 @@ git push -u origin main	Push the main branch (first time)
 git push	Push current branch to remote
 git pull	Fetch + merge changes from remote
 git fetch	Download changes without merging
+git push origin main   to push to github 
+
 
 ### 6. VIEWING HISTORY
 Command	Purpose
@@ -70,5 +72,8 @@ git stash	Temporarily save changes
 git stash pop	Reapply stashed changes
 git rebase	Rewrite commit history (advanced)
 git cherry-pick <commit>	Apply a specific commit from another branch
+
+hey i'm walid  
+dada
 
 
